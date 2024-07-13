@@ -1,0 +1,272 @@
+header img{
+   float: left;
+   width:90px;
+   height:80px;
+   margin-left: 80px;
+   padding: 12px;
+}
+header h1{
+    position: relative;
+    color: aliceblue;
+    padding: 9px;
+    display: inline-block;
+    
+}
+header{
+    background-color: black;
+    width: 99%;
+    height: 100px;
+    position: fixed;
+}
+span{
+    float:right;
+    padding: 25px;
+    position: relative;
+    padding: 41px;
+}
+span a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 40px;
+}
+.container-background{
+background-image: linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)),
+    url(simnoor/bg2.jpg);
+background-size: cover;
+width: 100%;
+height: 700px;
+background-repeat: no-repeat;
+
+}
+.container-background h1{
+    display: inline-block;
+    font-size: 40px;
+    max-width: 500px;
+    margin-top: 150px;
+    margin-right: 180px;
+    color: aliceblue;
+    margin-left: 100px;
+}
+.container-background a{
+    margin-left: 100px;
+    color: black;
+    border: 2px solid aliceblue;
+    display: inline-block;
+    background-color:aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.container-background h2{
+    font-size: 15px;
+}
+.ride{
+    text-align: center;
+    margin-top: 50px;
+    height:100px;
+}
+.places{
+    display: block;
+    margin-left: 20px;
+    text-align: center;
+   
+}
+.outstation img{
+    width:400px;
+    height: 350px;
+    display: inline;
+    justify-content: space-between;
+    border-radius: 30% 30% 0 0;
+    border: 2px solid black;
+    box-shadow:10px 10px 20px rgb(6, 1, 1) ;
+    filter: grayscale(90%);
+}
+.outstation img:hover{
+    filter: grayscale(0%);
+    
+}
+.outstation a:hover{
+    color:red;
+}
+.outstation a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-intro{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    width:100%;
+    height:600px;
+    background-image:linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)), url("simnoor/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form1{
+    border:5px solid black;
+    display:inline-block;
+    padding:40px;
+    background-image: linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)),
+    url(simnoor/taxi1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: rgb(249, 250, 251);
+    background-position: center ;
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+    
+}
+.about-it{
+    height: 600px;
+    width:100%;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.about-it p {
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.about-it img{
+    float: right;
+    margin-right: 100px;
+    height: 300px;
+}
+.about-full h1{
+    text-align: center;
+    display: block;
+    background-image: linear-gradient(rgba(4,9,10,0.3),rgba(4,9,10,0.3))
+    ,url("simnoor/bg1.jpg");
+    padding: 150px;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bolder;
+    
+}
+@media screen and (max-width:700px){
+    .container-background{
+        background-image: linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)),
+            url(simnoor/bg2.jpg);
+      
+        width: 350%;
+        height: 700px;
+        display: block;
+        
+        }
+        .container-background h1{
+            font-size: 35px;
+           margin-top: 244px;
+        }
+    header{
+            background-color: black;
+            width:100%;
+            height: 150px;
+           
+        }
+    header img{
+            float: left;
+            width:120px;
+            height:130px;
+            
+         }
+    header h1{
+             position: relative;
+             color: aliceblue;
+             display: inline-block;
+             font-size: 55px;
+            
+         }
+    span{
+            float:right;
+            position: relative;
+            display: block;
+        }
+    span a{
+          
+            text-decoration: none;
+            color:aliceblue;
+            font-weight: bold;
+        }
+    .ride{
+            
+            margin-top: 50px;
+            height:200px;
+            width: 100%;
+            
+            margin-left: 444px;
+            
+        }
+    .ride h1{
+        display: block;
+        width: 100%;
+        
+    }
+    .outstation img{
+        width:300px;
+        height: 350px;
+        display: inline;
+        justify-content: space-around;
+        border-radius: 30% 30% 0 0;
+        border: 2px solid black;
+        box-shadow:10px 10px 20px rgb(6, 1, 1) ;
+        filter: grayscale(0%);
+        margin: 50px;
+    }
+    .t1{
+        
+        border:2px solid black;
+        font-size: 20px; 
+        text-align: center;
+        display: block;
+        width: 1200px;
+        margin-left: 50px;
+
+    }
+    .roadmap{
+        margin-left: 200px;
+    }
+    .form1{
+        border:5px solid black;
+        display:inline-block;
+        padding:40px;
+        background-image: linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)),
+        url(simnoor/taxi1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: bold;
+        color: rgb(249, 250, 251);
+        background-position: center ;
+        width:700px;
+        text-align: center;
+        margin-left: 250px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        
+        
+    }
+    .footer-intro{
+        text-align: center;
+        border: 2px solid black;
+        font-size: 20px;
+        width:1200px;
+        height:600px;
+        background-image:linear-gradient(rgba(4, 9, 10, 0.7), rgba(4, 9, 10, 0.7)), url("simnoor/bg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
